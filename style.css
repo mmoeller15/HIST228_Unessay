@@ -55,6 +55,23 @@ img{
     margin-top: 2%;
 }
 
+cite{
+    font-size: 150%;
+    color: #2e323c;
+}
+
+
+.menu-icon{
+    height: 140%;
+    width: 2.3%;
+    margin: 3%;
+    position: absolute;
+    top: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 20;
+}
+
 .nameStyle{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 400%;
@@ -87,3 +104,63 @@ a:hover, a:active{color: #FFFDD0;}
     text-align: left;
     text-decoration: underline;
 }
+
+
+
+/* timeline.html with ideas from https://codepen.io/alvarotrigo/pen/ExwYyNW */
+
+.timeline{
+    width:800px;
+	background-color:#2e323c;
+	color:#fff;
+	padding:30px 20px;
+}
+
+.timeline ul{
+	list-style-type:none;
+	border-left:2px solid #5b7d87;
+	padding:10px 5px;
+}
+.timeline ul li{
+	padding:20px 20px;
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+}
+.timeline ul li span{
+	display:inline-block;
+	background-color:#5b7d87;
+	border-radius:25px;
+	padding:2px 5px;
+	font-size:15px;
+	text-align:center;
+}
+.timeline ul li .content h3{
+	color:#5b7d87;
+	font-size:17px;
+	padding-top:5px;
+}
+.timeline ul li .content p{
+	padding:5px 0px 15px 0px;
+	font-size:15px;
+}
+.timeline ul li:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#5b7d87;
+	border-radius:50%;
+	left:-11px;
+	top:28px;
+	transition:.5s;
+}
+.timeline ul li:hover{
+	background-color:#3d424f;
+}
+.timeline ul li:hover:before{
+	background-color:white;
+	box-shadow:0px 0px 10px 2px white;
+}
+
+/*-----------------------------------------------------------*/

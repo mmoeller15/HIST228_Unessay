@@ -1,0 +1,116 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>timeline</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="off-canvas-wrapper hide-for-large">
+      <div class="grid-x grid-padding-x">
+            <button type="button" class="menu-icon" data-toggle="offCanvas"></button>    
+      </div>
+     <h1>Timeline</h1>     
+        <!-- Your menu or Off-canvas content goes here -->
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+         <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <!-- Menu -->
+            <ul class="vertical menu">
+                <br> </br>
+                <br> </br>
+                <li><a href="./index.html">Home Page</a></li>
+                <li><a href="./timeline.html">Timeline</a></li>
+                <li><a href="./sources.html">Sources</a></li>
+                <li><a href="./about.html">About the Project</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class= "show-for-large">
+    <!-- main content within a `grid-container` -->
+        <div class="grid-container">
+            <!-- `grid-x` represents a row -->
+            <div class="grid-x grid-padding-x">
+                <div class="cell large-3" style="background-color: #2e323c;"><a href="./index.html">Home Page</a></div>
+                <div class="cell large-3" style="background-color: #2e323c;"><a href="./timeline.html"><u>Timeline</u></a></div>
+                <div class="cell large-3" style="background-color: #2e323c;"><a href="./sources.html">Sources</a></div>
+                <div class="cell large-3" style="background-color: #2e323c;"><a href="./about.html">About the Project</a></div>
+            </div>
+        </div>
+    </div>
+
+<!-- MAIN CONTENT -->
+            <div class="grid-container">
+                <!-- `grid-x` represents a row -->
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 large-12"><p class="nameStyle">Bread as a Symbol</p></div>
+                    <div class="cell small-12 large-12 large-centered timeline">
+                        <ul>
+                            <li>
+                                <span>first date here</span>
+                                <div class="content">
+                                    <h5>Life</h5>
+                                    <p>home, religion, 'Break bread with someone'</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>date</span>
+                                <div class="content">
+                                    <h5>Civilization</h5>
+                                    <p>agriculture and leaving a nomadic hunter-gatherer lifestyle</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>date</span>
+                                <div class="content">
+                                    <h5>Poverty</h5>
+                                    <p>& hunger</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>date</span>
+                                <div class="content">
+                                    <h5>Violence - Paris Bread Riots</h5>
+                                    <p></p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>date</span>
+                                <div class="content">
+                                    <h5>Capitalism -  Sliced Bread</h5>
+                                    <p>sliced bread</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span>present</span>
+                                <div class="content">
+                                    <h5>Greatest Bread Since Sliced Bread</h5>
+                                    <p>
+                                        seems like a return to handmade goods, during
+                                        Covid-19 Pandemic people were trying their own hand
+                                        at make bread
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+        
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
