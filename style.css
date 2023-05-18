@@ -18,7 +18,7 @@ h2{
 }
 
 h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 250%;
     text-align: center;
     background-color: #2e323c;
@@ -26,25 +26,26 @@ h3{
 
 h4{
     font-size: 150%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
 
 h5{
     font-size: 200%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    color: #91b3bc;
     text-align: center;
 }
 
 p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
     text-align: justify;
 }
 
 ul{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
     text-align: left;
 }
 
@@ -132,17 +133,17 @@ a:hover, a:active{color: #FFFDD0;}
 	background-color:#5b7d87;
 	border-radius:25px;
 	padding:2px 5px;
-	font-size:15px;
+	/* font-size:15px; */
 	text-align:center;
 }
 .timeline ul li .content h3{
 	color:#5b7d87;
-	font-size:17px;
+	/* font-size:17px; */
 	padding-top:5px;
 }
 .timeline ul li .content p{
 	padding:5px 0px 15px 0px;
-	font-size:15px;
+	/* font-size:15px; */
 }
 .timeline ul li:before{
 	position:absolute;
